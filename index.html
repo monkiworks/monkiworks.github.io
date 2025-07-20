@@ -85,8 +85,41 @@
     .section p {
       font-size: 1.1rem;
       max-width: 700px;
-      margin: 0 auto;
+      margin: 0 auto 40px auto;
       color: #444;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 60px 20px;
+      background: #fff;
+    }
+
+    .project-card {
+      width: 280px;
+      background: #f4f4f4;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .project-card .content {
+      padding: 20px;
+    }
+    .project-card h4 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+    .project-card p {
+      font-size: 0.95rem;
+      color: #555;
     }
 
     .footer {
@@ -116,16 +149,56 @@
       <button>Book a Demo</button>
     </div>
     <div class="hero-images">
-      <img src="https://via.placeholder.com/200x250" alt="Team Member" />
-      <img src="https://via.placeholder.com/200x250" alt="Office" />
+      <img src="https://images.unsplash.com/photo-1600185365483-26c1c3bfe3c3" alt="Team Member" />
+      <img src="https://images.unsplash.com/photo-1554224154-22dec7ec8818" alt="Office" />
     </div>
   </section>
 
   <section class="section">
-    <h3>Monkiworks HomeSpace</h3>
-    <p>
-      Our latest innovation, <strong>Monkiworks HomeSpace</strong>, is a next-generation home simulation experience where spatial computing meets creative freedom. Whether you're building worlds or living in them, HomeSpace provides a seamless blend of dynamic interaction, realism, and modular control. Launching soon.
-    </p>
+    <h3>Our Projects</h3>
+    <p>Explore our latest innovations across hardware, software, and immersive simulation technologies.</p>
+  </section>
+
+  <section class="projects">
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1587202372775-a960ff7e77c0" alt="Homedesk 1">
+      <div class="content">
+        <h4>Homedesk 1</h4>
+        <p>A minimalist desktop computer system built for focus, speed, and simplicity.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5" alt="Homedesk 2">
+      <div class="content">
+        <h4>Homedesk 2</h4>
+        <p>Next-gen desktop OS and hardware combo with seamless user experience integration.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1629904853690-9e3c8b6e1568" alt="Visionary 1">
+      <div class="content">
+        <h4>Visionary 1</h4>
+        <p>Our first mixed-reality headset built with comfort, clarity, and creative potential in mind.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1607082349934-4f1d61b9f94b" alt="Visionary 2">
+      <div class="content">
+        <h4>Visionary 2</h4>
+        <p>The future of VR/AR hardware. Lighter, sharper, and more immersive than ever before.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Monkiworks HomeSpace">
+      <div class="content">
+        <h4>Monkiworks HomeSpace</h4>
+        <p>A next-generation digital home simulation where memory, presence, and physics merge into one interactive space.</p>
+      </div>
+    </div>
   </section>
 
   <div class="footer">
