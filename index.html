@@ -1,19 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My Free Site!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nocturne Dynamics</title>
     <style>
       body {
-        background: #111;
-        color: #fff;
-        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #0e0e0e;
+        color: #f2f2f2;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      header {
+        background-color: #1a1a1a;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #444;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+        color: #00d4ff;
+      }
+
+      nav a {
+        color: #ccc;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 500;
+      }
+
+      nav a:hover {
+        color: #00d4ff;
+      }
+
+      .hero {
         text-align: center;
-        margin-top: 20%;
+        padding: 100px 20px;
+        background: linear-gradient(to bottom right, #121212, #1f1f1f);
+      }
+
+      .hero h2 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        color: #ffffff;
+      }
+
+      .hero p {
+        font-size: 1.2em;
+        max-width: 700px;
+        margin: 0 auto;
+        color: #bbb;
+      }
+
+      .footer {
+        background-color: #111;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9em;
+        color: #666;
+        border-top: 1px solid #333;
       }
     </style>
   </head>
   <body>
-    <h1>Welcome to My Site 🔥</h1>
-    <p>This is 100% free, hosted on GitHub Pages.</p>
+    <header>
+      <h1>Nocturne Dynamics</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Introducing: Monkiworks HomeSpace</h2>
+      <p>
+        Nocturne Dynamics proudly presents <strong>Monkiworks HomeSpace</strong>,
+        a groundbreaking simulation experience redefining how we interact with
+        digital environments. Dive into a surreal, immersive space where physics,
+        memory, and chaos blend into one seamless, living environment. Launching soon.
+      </p>
+    </section>
+
+    <div class="footer">
+      © 2025 Nocturne Dynamics. All rights reserved.
+    </div>
   </body>
 </html>
